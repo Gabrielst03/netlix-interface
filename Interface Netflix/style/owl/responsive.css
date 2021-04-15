@@ -1,0 +1,37 @@
+@media screen and (max-width: 600px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .botao {
+        margin-top: 5px;
+        width: 190px;
+        height: 60px;
+    }
+
+    .item {
+        width: 8rem;
+    }
+}
+
+@media screen and (max-width: 1269px) {
+    .item {
+        width: 11rem;
+    }
+}
+
+/* Ipad */
+
+@media screen and (max-width: 780px) {
+    .item {
+        width: 8rem;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .descrição {
+        width: 50%;
+    }
+}

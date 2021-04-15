@@ -1,0 +1,140 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    background-color: rgb(22, 21, 21);
+    width: 100%;
+    min-height: 100vh;
+    color: white;
+}
+
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Cartaz Principal */
+.cartaz{
+    font-size: 17px;
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50)100%), url(./images/cobrakai.jpg);
+
+    height: 400px;
+    background-size: cover;
+    margin-bottom: 30px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.cartaz .descricao{
+    margin-bottom: 40px;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.title {
+    margin-top: 15%;
+    font-size: 40px;
+}
+
+.botao {
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+
+}
+
+.botao:hover{
+    color: black;
+    background-color: white;
+
+}
+
+.botao i {
+    margin-right: 7px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.cartaz .container {
+    width: 70%;
+
+}
+
+.box-carrosel {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel {
+    margin-top: 9px;
+    margin-left: 30px;
+}
+
+.carrosel2{
+    margin-top: 9px;
+    margin-left: 30px;
+}
+.temporadas {
+    font-size: 12px;
+    margin-left: 8px;
+}
+
+.avaliacao {
+    font-size: 12px;
+    margin-left: 8px;
+    color: rgb(255, 196, 0);
+}
+
+.avaliacao:hover {
+    font-size: 13px;
+    margin-left: 8px;
+    color: rgb(196, 167, 75);
+    cursor: pointer;
+}
+
+
+
+.temporadas:hover {
+    color:rgb(190, 190, 190);
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.series {
+    margin-bottom: 2px;
+    margin-top: 2px;
+    font-size: 20px;
+    margin-left: 30px;
+}
+
+.ano {
+    color: rgb(94, 247, 94);
+    font-weight: bold;
+    font-size: 15px;
+    margin-left: 8px;
+}
+
+.item{
+    width: 15rem;
+}
+
+.item:hover {
+    width: 17em;
+}
